@@ -1,0 +1,35 @@
+body{
+    text-align: center;
+    background-color: blueviolet;
+}
+
+input[type="text"] {
+    color: black;
+}
+
+input[type="email"] {
+    color: black;
+}
+
+input[type="number"] {
+    color: black;
+}
+
+input {
+    border: 2px solid black;
+    color: blanchedalmond;
+    height: 20px;
+    width: 200px;
+}
+
+#submit
+{
+    height: 30px;
+    width: 70px;
+    border: 2px solid black;
+}
+
+#zender
+{
+    width: 20px;
+}

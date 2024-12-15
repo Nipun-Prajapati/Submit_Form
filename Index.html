@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Submit Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="http://localhost/MyCode/Index.php" method="post">
+      <h3>Your Name :-</h3>
+      <input type="text" name="name" id="name" placeholder="Enter Your Name" />
+      <br />
+      <h3>Surname Name :-</h3>
+      <input
+        type="text"
+        name="surname"
+        id="surname"
+        placeholder="Enter Your Name"
+      />
+      <br />
+      <h3>Father's Name :-</h3>
+      <input
+        type="text" name="fathername" id="fathername" placeholder="Enter Your Name"/>
+      <br />
+      <h3>Zender :-</h3>
+      <input type="radio" name="zender" id="zender" value="ale"/> Male 
+      <br/>
+      <br />
+      <input type="radio" name="zender" id="zender" value="Female"/>Female
+      <br />
+      <h3>Phone Number :-</h3>
+      <input  type="number"  name="phone"  id="phone"  placeholder="Enter Your Phone Number"/>
+      <br />
+      <h3>Email :-</h3>
+      <input  type="email"  name="email"  id="email"  placeholder="Enter Your Email Id"/>
+      <br />
+      <br />
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+</html>
